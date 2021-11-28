@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #011936;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  background-color: #f4f4f8;
+  border: 1px solid #f4f4f8;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+body .wrapper .container {
+  display: flex;
+}
+body .wrapper h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+body .wrapper input {
+  padding: 0.5rem;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid #535353;
+  border-radius: 4px;
+  outline: none;
+}
+body .wrapper button {
+  width: 40px;
+  margin-left: 8px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+body .wrapper button:hover {
+  background-color: #00ff6e;
+}
+body .info {
+  color: #fff;
+  margin-top: 1rem;
+  text-align: center;
+  opacity: 0;
+  padding: 1rem;
+  transition: 0.15s;
+}
+
+/*# sourceMappingURL=index.css.map */

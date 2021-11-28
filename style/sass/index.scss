@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import "variable";
+@import "mixins";
+
+// Styles
+
+* {
+  @include Overal;
+}
+
+body {
+  @include BodyStyle;
+
+  .wrapper {
+    @include ContainerStyle;
+
+    .container {
+      display: flex;
+    }
+
+    h2 {
+      @include H2;
+    }
+
+    input {
+      @include InputStyle;
+    }
+
+    button {
+      @include Button;
+
+      &:hover {
+        background-color: #00ff6e;
+      }
+    }
+  }
+  .info {
+    @include Info;
+  }
+}
